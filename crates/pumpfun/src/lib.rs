@@ -138,6 +138,7 @@ impl PumpFun {
                 _name: ipfs.metadata.name,
                 _symbol: ipfs.metadata.symbol,
                 _uri: ipfs.metadata.image,
+                _creator: self.payer.pubkey(),
             },
         ));
 
@@ -208,6 +209,7 @@ impl PumpFun {
                 _name: ipfs.metadata.name,
                 _symbol: ipfs.metadata.symbol,
                 _uri: ipfs.metadata.image,
+                _creator: self.payer.pubkey(),
             },
         ));
 
